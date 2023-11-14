@@ -35,6 +35,9 @@ function App() {
   }
   const handleNewQuote = () => {
     let i = Math.floor(Math.random() * state.quote.length);
+    while (state.quote[i].text == state.newQuote){
+      i = Math.floor(Math.random() * state.quote.length);
+    }
     let q = state.quote[i];
     if (state.quote[i].author.length - 10 <= 0) { 
       setState({...state, 
