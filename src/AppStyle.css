@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quoteBox {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 250px;
+    justify-content: space-between;
+    background-color: white;
+    transition: .5s ease-in;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    border: none;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}
+.buttonIcon{
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.button:hover, .buttonIcon:hover{
+    filter: brightness(1.25);
+    transition: .3s ease-in;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.quoteAndAuthor {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+    justify-content: space-around;
+}
+
+#author {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#text {
+    padding: 10px;
+}
+
+h1, h2{
+    display: inline;
+}
+a{
+    color: white; 
+    text-decoration: none;
+    margin: 10px;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in;
+}
