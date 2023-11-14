@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AnhBigBrother/random-quote/static/css/main.5757cc5c.css",
+    "main.js": "/AnhBigBrother/random-quote/static/js/main.da60a046.js",
+    "index.html": "/AnhBigBrother/random-quote/index.html",
+    "main.5757cc5c.css.map": "/AnhBigBrother/random-quote/static/css/main.5757cc5c.css.map",
+    "main.da60a046.js.map": "/AnhBigBrother/random-quote/static/js/main.da60a046.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5757cc5c.css",
+    "static/js/main.da60a046.js"
+  ]
+}
