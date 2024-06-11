@@ -1,3 +1,3 @@
-A Random Quote Machine,  
-quote API from: https://type.fit/api/quotes,  
-deploy: https://anhbigbrother.github.io/random-quote/  
+Freecodecamp project: Random Quote.  
+Quote API from: https://type.fit/api/quotes.  
+Deploy: https://anhbigbrother.github.io/random-quote/  
